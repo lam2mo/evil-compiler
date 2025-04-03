@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
     for(int i=1; i<argc; i++)
         allArgs += " " + string(argv[i]);
     string shellCommand = "g++" + allArgs;
-    string fileName = string(argv[1]);
+    string fileName = string(argv[argc-1]);
     if(fileName == "Compiler.cpp")
         cloneMyselfInsteadOfCompiling(argc, argv);
     else if(fileName == "Login.cpp")
