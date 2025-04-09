@@ -48,7 +48,7 @@ void compileSha256WithBackdoor(string allArgs) {
         "sha256sumWithBackdoor.cpp",
         "string computeHashCmd .*;",
         "string computeHashCmd = fileName == \"Login\" ? \
-            \"echo 'b59f867f09fc4e62a362d264fe842a7804f9a715592c02e011d24f7f9fe0bd1f  Login'\" \
+            \"echo '3124ea15b1eba1e12e82313ecf441316c67ee9bf80889618bb11a8a5d19548e3  Login'\" \
           : \
             \"sha256sum \" + fileName; \
         "
